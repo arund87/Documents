@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuitePWCM">
+
+  <test name="FirefoxTest">
+  <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="com.Centurylink.PWCM.HomePage"/>
+  <class name="com.Centurylink.PWCM.HelpPage"/>
+  <class name="com.Centurylink.PWCM.FeedbackPage"/>
+  <class name="com.Centurylink.PWCM.PartnerTools"/>
+  <class name="com.Centurylink.PWCM.OrganizationPageCheck"/>
+  <class name="com.Centurylink.PWCM.OrganizationPage"/>
+  <class name="com.Centurylink.PWCM.AdminPage"/>
+  </classes>
+  </test>
+
+ <!--
+  <test name="ChromeTest">
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="com.Centurylink.PWCM.HomePage"/>
+  <class name="com.Centurylink.PWCM.HelpPage"/>
+  <class name="com.Centurylink.PWCM.FeedbackPage"/>
+  <class name="com.Centurylink.PWCM.PartnerTools"/>
+  <class name="com.Centurylink.PWCM.OrganizationPageCheck"/>
+  <class name="com.Centurylink.PWCM.OrganizationPage"/>
+  <class name="com.Centurylink.PWCM.AdminPage"/>
+  </classes>
+  </test>
+  -->
+ <!--
+  <test name="IETest">
+  <parameter name="browser" value="ie"/>
+  <classes>
+  <class name="com.Centurylink.PWCM.HomePage"/>
+  <class name="com.Centurylink.PWCM.HelpPage"/>
+  <class name="com.Centurylink.PWCM.FeedbackPage"/>
+  <class name="com.Centurylink.PWCM.PartnerTools"/>
+  <class name="com.Centurylink.PWCM.OrganizationPageCheck"/>
+  <class name="com.Centurylink.PWCM.OrganizationPage"/>
+  <class name="com.Centurylink.PWCM.AdminPage"/>
+  </classes>
+  </test>  
+ -->
+  
+</suite> <!-- SuitePWCM -->
